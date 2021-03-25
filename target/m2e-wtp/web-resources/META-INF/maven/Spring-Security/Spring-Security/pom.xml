@@ -22,15 +22,13 @@
 			<artifactId>spring-security-taglibs</artifactId>
 			<version>5.4.2</version>
 		</dependency>
-		<!-- Spring MVC support -->
+	
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${springframework.version}</version>
 		</dependency>
-		
-		<!-- Spring security -->
-		<!-- Spring-security-web and spring-security-config -->
+
 		<dependency>
   			<groupId>org.springframework.security</groupId>
   			<artifactId>spring-security-web</artifactId>
@@ -59,10 +57,6 @@
   			<version>0.9.5.5</version>
 		</dependency>
 		
-		
-		
-		
-		<!-- Servlet, JSP and JSTL support -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
