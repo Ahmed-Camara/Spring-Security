@@ -9,7 +9,7 @@ public class SpringMvcDispatcherServletInitializer extends AbstractAnnotationCon
 		
 		return null;
 	}
-
+	
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		
