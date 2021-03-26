@@ -10,4 +10,16 @@ public class AppController {
 	public String home() {
 		return "home";
 	}
+	
+	@GetMapping("/leaders")
+	public String leadersResources() {
+		
+		return "leaders";
+	}
+	
+	@GetMapping("/systems")
+	public String systemsResources() {
+		
+		return "systems";
+	}
 }

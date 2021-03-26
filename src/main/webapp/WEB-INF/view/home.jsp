@@ -32,6 +32,16 @@
 	</p>
 	
 	<hr>
+		
+		<p>
+			<a href="${pageContext.request.contextPath}/leaders">Leaders</a> (only for Leaders)
+		</p>
+		
+		<p>
+			<a href="${pageContext.request.contextPath}/systems">IT Systems Meeting</a> (only for Admin team)
+		</p>
+	
+	<hr>
 	<form:form action="${pageContext.request.contextPath}/logout" method="POST">
 		<input class="btn btn-primary" type="submit" value="Log out"/>
 	</form:form>
