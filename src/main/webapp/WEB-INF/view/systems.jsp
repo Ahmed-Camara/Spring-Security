@@ -8,11 +8,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Leaders - Home page</title>
+<title>Admin - Home page</title>
 </head>
 <body>
 	<hr>
-	<h2>Welcome to Leaders page</h2>
+	<h2>Welcome to Admin page</h2>
 	
 	<p>This is an restricted page accessible only for the Admin team</p>
 		

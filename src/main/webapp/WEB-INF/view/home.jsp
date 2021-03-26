@@ -33,13 +33,17 @@
 	
 	<hr>
 		
-		<p>
-			<a href="${pageContext.request.contextPath}/leaders">Leaders</a> (only for Leaders)
-		</p>
+		<security:authorize access="hasRole('MANAGER')">
+			<p>
+				<a href="${pageContext.request.contextPath}/leaders">Leaders</a> (only for Leaders)
+			</p>
+		</security:authorize>
 		
-		<p>
-			<a href="${pageContext.request.contextPath}/systems">IT Systems Meeting</a> (only for Admin team)
-		</p>
+		<security:authorize access="hasRole('ADMIN')">
+			<p>
+				<a href="${pageContext.request.contextPath}/systems">IT Systems Meeting</a> (only for Admin team)
+			</p>
+		</security:authorize>
 	
 	<hr>
 	<form:form action="${pageContext.request.contextPath}/logout" method="POST">
